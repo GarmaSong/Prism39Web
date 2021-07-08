@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "descImg": "images/back1.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/bloomberg_logo1.png",
+    "imgAfter": "images/bloomberg_logo2.png"
+  },
+  {
+    "id": 2,
+    "descImg": "images/back2.jpeg",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/factset_logo1.png",
+    "imgAfter": "images/factset_logo2.png"
+  },
+  {
+    "id": 3,
+    "descImg": "images/back3.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/msci_logo1.png",
+    "imgAfter": "images/msci_logo2.png"
+  },
+  {
+    "id": 4,
+    "descImg": "images/back4.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/goldmansachs_logo1.png",
+    "imgAfter": "images/goldmansachs_logo2.png"
+  },
+  {
+    "id": 5,
+    "descImg": "images/back5.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/fidelity_logo1.png",
+    "imgAfter": "images/fidelity_logo2.png"
+  },
+  {
+    "id": 6,
+    "descImg": "images/back6.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/refinitiv_logo1.png",
+    "imgAfter": "images/refinitiv_logo2.png"
+  },
+  {
+    "id": 7,
+    "descImg": "images/back7.png",
+    "title": "This incorporates any substandard, Mill broke or internal mill waste",
+    "btnText": "Bold Text Here",
+    "imgBefore": "images/vanguard1.png",
+    "imgAfter": "images/vanguard2.png"
+  }
+]
