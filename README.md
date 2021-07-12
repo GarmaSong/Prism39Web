@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## 🧐 프로젝트 개요
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 금융 데이터 업무 자동화 서비스를 제공하는 Financial DataOps 스타트업의 회사 소개 페이지 구현
 
-## Available Scripts
+## 🎯 프로젝트 목표
 
-In the project directory, you can run:
+- 초기 웹사이트 구현을 목표로 회사 소개와 더불어 제품 데모의 핵심 기능인 Drag & Drop 기능 파악
+- 스크롤 다운 인터랙션을 사용하여 생소할 수 있는 금융 데이터 소개를 흥미롭게 나타냄
 
-### `npm start`
+## 🎉 프로젝트 진행
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 구현 사항
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+❗**자세한 코드 설명은 [여기](https://velog.io/@sgr2134/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D-Life-Friends-2%ED%8E%B8) 클릭해주세요.**
 
-### `npm test`
+1. **Intersection Observer를 이용한 스크롤 이벤트 적용**
+    - ReFlow와 RePaint의 개념을 바탕으로 여러가지 스크롤 이벤트의 비교
+    - Intersection Observer를 이용한 스크롤 이벤트를 적용하며 브라우저 최적화
+    - React Hook 중 useRef를 사용하여 관찰 될 대상을 포착
+2. **Custom Hook을 사용한 그래프 그리기 및 비동기 처리**
+    - Libraby 없이 그래프를 그리기 위해 SVG와 Canvas, Div 태그의 비교
+    - 그래프의 퍼센트지를 카운트 하기 위해 setInterval의 비동기 처리에 대한 고민
+    - custom Hook 중 하나인 useInterval을 사용하여 동기적으로 그래프를 그려냄
+3. **마우스 드래그 이벤트를 통한 제품 핵심 기능의 파악**
+    - onDragStat, onDragEnd, onDragOver등의 다양한 마우스 이벤트를 이해하고 적용
+    - 동일 요소를 드래그 하는 방식과 드래그 된 위치에 새로운 요소를 그리는 방식의 이해
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤓 무엇을 배웠을까?
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **브라우저 최적화에 대한 고민**: ReFlow와 RePaint에 대한 개념에 대한 이해를 바탕으로 스크롤 이벤트 시 발생할 수 있는 브라우저 과부하에 대해 기본 내장 객체인 Intersection Observer를 사용하여 해결하고자 했습니다. 1px 단위로 생기는 스크롤 이벤트 대신 Viewport에 타겟이 되는 요소가 관찰이 될 때만 이벤트가 시행되는 방식을 사용하여 브라우저를 최적화 시킬 수 있었습니다.
+- **다양한 구성원들과의 협업**: 기업 소개 페이지 구현 작업을 진행하며 실제 기획 및 디자인 팀과 함께 피드백을 주고받으며 페이지를 완성할 수 있었습니다. 페이지가 계속 수정되는 과정이었기 때문에 잦은 변동이 있었지만, Figma를 통해서 변화된 부분을 즉각적으로 파악하고 Agile방식을 차용한 스크럼 회의를 진행하며 빠르게 수정 사항들을 적용 시킬 수 있었습니다.
+- **함께 성장하기 위해서는?:** 초기 스타트업에서 인턴십을 경험하며 회사와 개인이 함께 성장하기 위해 어떤 요소가 필요한지 고민해볼 수 있었습니다. 회사에서는 명확한 비전과 방향을 제시하는 부분이 중요한 부분이라고 생각되었고, 이를 개인의 입장에서는 상황을 빠르게 받아들이고 구체적인 목표와 역할을 설정할 수 있을 때 함께 시너지를 낼 수 있음을 배울 수 있었습니다.
