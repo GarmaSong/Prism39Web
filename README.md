@@ -1,3 +1,19 @@
+## 📆 프로젝트 기간
+- 2021.06.07 ~ 2021.07.01 (약 4주)
+
+## 📌 Keywords
+- 인턴십 | 핀테크 | Scrolling | Drag & Drop
+
+## 🔨 사용한 기술 스택
+- React | Hooks | Styled-components | Github | Figma
+
+## 👪 팀원구성
+- Front-end: 김도은, 송가람
+- Back-end:  문성호, 양영건
+
+## 🔗 프로젝트 링크
+- [블로그](https://velog.io/@sgr2134/%EA%B8%B0%EC%97%85%ED%98%91%EC%97%85-%ED%9A%8C%EA%B3%A0%EB%A1%9D) 
+
 ## 🧐 프로젝트 개요
 
 - 금융 데이터 업무 자동화 서비스를 제공하는 Financial DataOps 스타트업의 회사 소개 페이지 구현
